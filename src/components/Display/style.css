@@ -1,0 +1,23 @@
+.display-container {
+	width: 1200px;
+	margin: 20px auto;
+	padding: 20px 30px;
+	background-color: #f8f9f9;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+}
+
+.overflow-ellipsis {
+	overflow: hidden;    
+	text-overflow:ellipsis;    
+	white-space: nowrap;
+}
+
+.multi-line-ellipsis {
+	display: -webkit-box;        
+	-webkit-line-clamp: 3;    
+	overflow: hidden;
+	/* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+}

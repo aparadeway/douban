@@ -1,0 +1,50 @@
+.title-container {
+	height: 30px;
+	line-height: 30px;	
+}
+
+.title-content {
+	display: inline-block;
+	margin: 0;
+	color: #333;
+}
+
+.title-icon {
+	display: inline-block;
+	width: 22px;
+	height: 25px;
+	margin-right: 10px;
+	vertical-align: -5px;
+}
+
+.title-text {
+	font-size: 24px;
+	margin: 10px;
+}
+
+.title-description {
+	font-size: 13px;
+	font-weight: normal;
+	vertical-align: 4px;
+	color: #a6a6a6;
+}
+
+.btn-more {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	float: right;
+	background-color: #fff;
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+	vertical-align: top;
+	border-radius: 2px;
+	box-shadow: 1px 1px 3px 0 #ddd;
+	cursor: pointer;
+}
+
+.btn-more:hover {
+	color: #fff;
+	background-color: #68abb7;
+}
